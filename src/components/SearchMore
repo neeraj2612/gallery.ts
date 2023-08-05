@@ -1,0 +1,43 @@
+// import React from 'react'
+// import {BsSearch} from 'react-icons/bs'
+// import Search from '../utils/Search';
+// import {useState,useEffect} from'react';
+
+// interface Image {
+//   id: number;
+//   photographer: string;
+//   src: {
+//     large: string;
+//     original: string;
+//   };
+// }
+
+// function SearchMore() {
+//   const [galleryImages, setGalleryImages] = useState<Image[]>([]);
+//   let page = 1;
+//   const auth = '563492ad6f917000010000011b34d84b304940c1be9d2c23d74cf2e6';
+//   const nextPage=async ()=>{
+//     page++
+//     const url = `https://api.pexels.com/v1/curated?per_page=15&page=${page}`
+//     const response = await fetch(url,{
+//       headers:{
+//           Authorization:auth
+//       }
+//     }
+//       );
+//     const data = await response.json();
+//     setGalleryImages(data.photos);
+//     console.log(galleryImages);
+//   }
+
+//   return (
+//     <div className='flex justify-center items-center mb-5'>
+
+//       <button onClick={nextPage} className="bg-teal-400 flex justify-center items-center mt-8  h-10 w-96 shadow-lg p-1 rounded-md text-lg font-semibold">
+//        Load More<BsSearch className="h-6 w-6 ml-2" />
+//       </button>
+//     </div>
+//   )
+// }
+
+// export default SearchMore

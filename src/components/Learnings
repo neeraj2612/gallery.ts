@@ -1,0 +1,43 @@
+// passing props using interface
+// interface emp{
+//   readonly _id: number
+//   name: string,
+//   email: string,
+//   isActive?: boolean
+// }
+
+
+// function Emp1({_id,name,email,isActive}:emp){
+//   return (<div>
+//     <h2>{_id}</h2>
+//     <h2>{name}</h2>
+//     <h2>{email}</h2>
+//     <h2>{isActive}</h2>
+//   </div>);
+
+// }
+
+// interface postProp{
+//   name?:string,
+//   title: string
+// }
+
+ // const[state,setState]=useState<string[]>([]);
+  // const[obja,setObj] = useState<{name:string,email: string,class:string}[]>([]);
+
+  // useEffect(()=>{
+  //   setState(['sd ','sdasd ','dsadasfd'])
+  //   setObj([{name:'neeraj',email:'fdfsdfsd',class:'gone'}])
+  // },[])
+  // console.log(obja)
+  // console.log(state)
+  // const[title, setTitle] = useState<string>('')
+  // const changeTitle=():void=>{
+  //   setTitle('hello neeraj singh saini')
+  // }
+
+{/* <Emp1 _id={12} name='neeraj' email='neeraj@gmail.com' isActive ={true} />
+<h2>{state}</h2> */}
+  {/* <h1>{title}</h1>
+
+    <button onClick={changeTitle}>click me</button> */}
